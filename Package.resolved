@@ -1,0 +1,15 @@
+{
+  "originHash" : "ef30ee89b6c9d64d9f7be219e67f815b879092ce6925e46be23121ce1c14739e",
+  "pins" : [
+    {
+      "identity" : "colorkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ailu2533/ColorKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "5ebdb820565355f9d78b015424a579ac47f53021"
+      }
+    }
+  ],
+  "version" : 3
+}
