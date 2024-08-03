@@ -13,7 +13,8 @@ let package = Package(
             targets: ["CustomColor"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ailu2533/ColorKit", branch: "master")
+        .package(url: "https://github.com/Boris-Em/ColorKit.git", exact: "1.0.0"),
+        .package(url: "https://github.com/indragiek/DominantColor.git", .upToNextMajor(from: "0.2.2")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +22,9 @@ let package = Package(
         .target(
             name: "CustomColor",
             dependencies: [
-                .product(name: "ColorKit", package: "ColorKit")
+                .product(name: "ColorKit", package: "ColorKit"),
+                .product(name: "DominantColor", package: "DominantColor"),
+
             ]
         ),
         .testTarget(

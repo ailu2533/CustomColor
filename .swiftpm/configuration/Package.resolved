@@ -1,13 +1,22 @@
 {
-  "originHash" : "14acb7910b528f53519f57dae663e5b073c5d8b8949fcaf9e9a8ac240a5acb72",
+  "originHash" : "4c8fde784f8a6b90d95922acadf5146b3367b00d45244acdb4e4e532eb9b1bc7",
   "pins" : [
     {
       "identity" : "colorkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/ailu2533/ColorKit",
+      "location" : "https://github.com/Boris-Em/ColorKit.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "5ebdb820565355f9d78b015424a579ac47f53021"
+        "revision" : "d9c3a546c40f31b5f2c624603fa03f56904e2dc2",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "dominantcolor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/indragiek/DominantColor.git",
+      "state" : {
+        "revision" : "aadc3d48c1f7f8abc7d03561d42c19188b1d4625",
+        "version" : "0.2.2"
       }
     }
   ],

@@ -5,11 +5,12 @@
 //  Created by ailu on 2024/8/3.
 //
 
+import ColorKit
 import Foundation
 import UIKit
 
-struct ColorPalette {
-    static func nearestTwoColors(color: UIColor) -> (CustomColor?, CustomColor?, UIColor.ColorDifferenceResult, UIColor.ColorDifferenceResult) {
+public struct ColorPalette {
+    public static func nearestTwoColors(color: UIColor) -> (CustomColor?, CustomColor?, UIColor.ColorDifferenceResult, UIColor.ColorDifferenceResult) {
         var firstNearest: CustomColor?
         var secondNearest: CustomColor?
         var minDist1 = UIColor.ColorDifferenceResult.near(10)
@@ -31,7 +32,7 @@ struct ColorPalette {
         return (firstNearest, secondNearest, minDist1, minDist2)
     }
 
-    static let baseColors: [CustomColor] = [
+    public static let baseColors: [CustomColor] = [
         // 基本色系
         CustomColor(name: "Black", red: 0, green: 0, blue: 0, colorPreference: ColorBits.black.rawValue),
         CustomColor(name: "White", red: 255, green: 255, blue: 255, colorPreference: ColorBits.white.rawValue),
@@ -55,7 +56,7 @@ struct ColorPalette {
         CustomColor(name: "Brown", red: 165, green: 42, blue: 42, colorPreference: ColorBits.brown.rawValue),
     ]
 
-    static let colors: [CustomColor] = [
+    public static let colors: [CustomColor] = [
         CustomColor(name: "Red", red: 255, green: 0, blue: 0, colorPreference: ColorBits.red.rawValue),
         CustomColor(name: "Green", red: 0, green: 255, blue: 0, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Blue", red: 0, green: 0, blue: 255, colorPreference: ColorBits.blue.rawValue),
@@ -232,11 +233,11 @@ struct ColorPalette {
 //        CustomColor(name: "Navy Blue", red: 25, green: 25, blue: 112, colorPreference: ColorBits.blue.rawValue),
     ]
 
-    static func getColor(byName name: String) -> UIColor? {
+    public static func getColor(byName name: String) -> UIColor? {
         return colors.first(where: { $0.name == name })?.uiColor
     }
 
-    static func getAllColorNames() -> [String] {
+    public static func getAllColorNames() -> [String] {
         return colors.map { $0.name }
     }
 }

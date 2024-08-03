@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum ColorBits: Int32 {
-    typealias RawValue = Int32
+public enum ColorBits: Int32 {
+    public typealias RawValue = Int32
 
     case black = 1 // 2^0
     case white = 2 // 2^1
@@ -28,7 +28,7 @@ enum ColorBits: Int32 {
     // 可以根据需要添加更多颜色
 }
 
-extension ColorBits {
+public extension ColorBits {
     var rgbValue: (red: Int, green: Int, blue: Int) {
         switch self {
         case .black: return (0, 0, 0)
