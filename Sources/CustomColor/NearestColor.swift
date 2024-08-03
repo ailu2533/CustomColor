@@ -27,7 +27,7 @@ public struct ColorMatcher: Sendable {
             let dominantUIColors = dominantCGColors.map { UIColor(cgColor: $0) }
             
             let matchedColors = dominantUIColors.map {
-                findClosestColor(in: ColorPalette.baseColors, to: $0)
+                findClosestColor(in: ColorPalette.colors, to: $0)
             }
 
             let colorFrequency = matchedColors.reduce(into: [CustomColor: Int]()) { counts, color in
