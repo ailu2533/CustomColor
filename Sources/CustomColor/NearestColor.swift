@@ -10,22 +10,35 @@ import DominantColor
 import Foundation
 import UIKit
 
+public struct ColorMatcherResult: Sendable {
+    public let predictColor: CustomColor?
+    public let status: Int
+    // DominantColor解析出的颜色
+    public let extractedDominatorColors: [UIColor]
+
+    init(predictColor: CustomColor? = nil, status: Int = 0, extractedDominatorColors: [UIColor] = []) {
+        self.predictColor = predictColor
+        self.status = status
+        self.extractedDominatorColors = extractedDominatorColors
+    }
+}
+
 public struct ColorMatcher: Sendable {
-    static func findClosestColor(in palette: [CustomColor], to targetColor: UIColor) -> CustomColor? {
+    private static func findClosestColor(in palette: [CustomColor], to targetColor: UIColor) -> CustomColor? {
         palette.min { color1, color2 in
             color1.uiColor.difference(from: targetColor) < color2.uiColor.difference(from: targetColor)
         }
     }
 
-    public static func extractDominantColor(from image: UIImage) async -> (CustomColor?, Int) {
+    public static func extractDominantColor(from image: UIImage) async -> ColorMatcherResult {
         guard let cgImage = image.cgImage else {
-            return (nil, 0)
+            return ColorMatcherResult()
         }
 
         return await Task(priority: .userInitiated) {
             let dominantCGColors = dominantColorsInImage(cgImage)
             let dominantUIColors = dominantCGColors.map { UIColor(cgColor: $0) }
-            
+
             let matchedColors = dominantUIColors.map {
                 findClosestColor(in: ColorPalette.colors, to: $0)
             }
@@ -35,11 +48,12 @@ public struct ColorMatcher: Sendable {
             }
 
             guard let (mostFrequentColor, highestCount) = colorFrequency.max(by: { $0.value < $1.value }) else {
-                return (nil, 0)
+                return ColorMatcherResult()
             }
-
             let majorityThreshold = dominantUIColors.count / 2
-            return (mostFrequentColor, highestCount > majorityThreshold ? 1 : 0)
+            let status = highestCount > majorityThreshold ? 1 : 0
+
+            return ColorMatcherResult(predictColor: mostFrequentColor, status: status, extractedDominatorColors: dominantUIColors)
         }.value
     }
 }
