@@ -85,14 +85,15 @@ public struct ColorPalette {
         CustomColor(name: "Mint Cream", red: 245, green: 255, blue: 250, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Azure", red: 240, green: 255, blue: 255, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Alice Blue", red: 240, green: 248, blue: 255, colorPreference: ColorBits.white.rawValue),
-        
+        CustomColor(name: "Pearl", red: 234, green: 234, blue: 234, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Cold Beige", red: 245, green: 245, blue: 245, colorPreference: ColorBits.white.rawValue),
+
         
         // 新增常见的衣服灰色
         CustomColor(name: "Dark Gray", red: 54, green: 69, blue: 79, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Slate Gray", red: 112, green: 128, blue: 144, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Gray", red: 128, green: 128, blue: 128, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Silver", red: 192, green: 192, blue: 192, colorPreference: ColorBits.gray.rawValue),
-        CustomColor(name: "Pearl", red: 234, green: 234, blue: 234, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Warm Gray", red: 128, green: 128, blue: 120, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Cool Gray", red: 144, green: 144, blue: 152, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Light Gray", red: 211, green: 211, blue: 211, colorPreference: ColorBits.gray.rawValue),
@@ -200,7 +201,6 @@ public struct ColorPalette {
         CustomColor(name: "Beige", red: 245, green: 245, blue: 220, colorPreference: ColorBits.beige.rawValue),
         CustomColor(name: "Ivory", red: 255, green: 255, blue: 240, colorPreference: ColorBits.beige.rawValue),
         CustomColor(name: "Linen", red: 250, green: 240, blue: 230, colorPreference: ColorBits.beige.rawValue),
-        CustomColor(name: "Cold Beige", red: 245, green: 245, blue: 245, colorPreference: ColorBits.beige.rawValue),
 
         // 新增绿色系颜色
         CustomColor(name: "Emerald", red: 0, green: 168, blue: 107, colorPreference: ColorBits.green.rawValue),
