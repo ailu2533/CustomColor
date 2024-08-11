@@ -70,6 +70,23 @@ public struct ColorPalette {
         CustomColor(name: "Orange", red: 255, green: 165, blue: 0, colorPreference: ColorBits.orange.rawValue),
         CustomColor(name: "Brown", red: 165, green: 42, blue: 42, colorPreference: ColorBits.brown.rawValue),
 
+        // 新增常见的衣服白色
+        CustomColor(name: "Cream White", red: 255, green: 253, blue: 208, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Snow White", red: 255, green: 250, blue: 250, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Ivory White", red: 255, green: 255, blue: 240, colorPreference: ColorBits.white.rawValue),
+        // 新增10种白色
+        CustomColor(name: "Antique White", red: 250, green: 235, blue: 215, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Linen White", red: 250, green: 240, blue: 230, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Seashell White", red: 255, green: 245, blue: 238, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Ghost White", red: 248, green: 248, blue: 255, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Baby Powder", red: 254, green: 254, blue: 250, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Snow", red: 255, green: 250, blue: 250, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Honeydew", red: 240, green: 255, blue: 240, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Mint Cream", red: 245, green: 255, blue: 250, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Azure", red: 240, green: 255, blue: 255, colorPreference: ColorBits.white.rawValue),
+        CustomColor(name: "Alice Blue", red: 240, green: 248, blue: 255, colorPreference: ColorBits.white.rawValue),
+        
+        
         // 新增常见的衣服灰色
         CustomColor(name: "Dark Gray", red: 54, green: 69, blue: 79, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Slate Gray", red: 112, green: 128, blue: 144, colorPreference: ColorBits.gray.rawValue),
