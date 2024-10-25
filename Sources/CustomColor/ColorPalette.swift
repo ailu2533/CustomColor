@@ -64,9 +64,7 @@ public struct ColorPalette {
         CustomColor(name: "Purple", red: 128, green: 0, blue: 128, colorPreference: ColorBits.purple.rawValue),
         CustomColor(name: "Cyan", red: 0, green: 255, blue: 255, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(name: "Magenta", red: 255, green: 0, blue: 255, colorPreference: ColorBits.pink.rawValue),
-        CustomColor(name: "Black", red: 0, green: 0, blue: 0, colorPreference: ColorBits.black.rawValue),
         CustomColor(name: "White", red: 255, green: 255, blue: 255, colorPreference: ColorBits.white.rawValue),
-        CustomColor(name: "Gray", red: 128, green: 128, blue: 128, colorPreference: ColorBits.gray.rawValue),
         CustomColor(name: "Orange", red: 255, green: 165, blue: 0, colorPreference: ColorBits.orange.rawValue),
         CustomColor(name: "Brown", red: 165, green: 42, blue: 42, colorPreference: ColorBits.brown.rawValue),
 
@@ -80,7 +78,6 @@ public struct ColorPalette {
         CustomColor(name: "Seashell White", red: 255, green: 245, blue: 238, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Ghost White", red: 248, green: 248, blue: 255, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Baby Powder", red: 254, green: 254, blue: 250, colorPreference: ColorBits.white.rawValue),
-        CustomColor(name: "Snow", red: 255, green: 250, blue: 250, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Honeydew", red: 240, green: 255, blue: 240, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Mint Cream", red: 245, green: 255, blue: 250, colorPreference: ColorBits.white.rawValue),
         CustomColor(name: "Azure", red: 240, green: 255, blue: 255, colorPreference: ColorBits.white.rawValue),
@@ -102,11 +99,9 @@ public struct ColorPalette {
 
         // 新增女装常用颜色
         CustomColor(name: "Champagne", red: 250, green: 214, blue: 165, colorPreference: ColorBits.beige.rawValue),
-        CustomColor(name: "Sky Blue", red: 135, green: 206, blue: 235, colorPreference: ColorBits.blue.rawValue),
         CustomColor(name: "Light Gray Blue", red: 176, green: 196, blue: 222, colorPreference: ColorBits.blue.rawValue),
         CustomColor(name: "Rose Gold", red: 183, green: 110, blue: 121, colorPreference: ColorBits.pink.rawValue),
         CustomColor(name: "Light Yellow", red: 255, green: 255, blue: 224, colorPreference: ColorBits.yellow.rawValue),
-        CustomColor(name: "Light Green", red: 144, green: 238, blue: 144, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Pastel Pink", red: 221, green: 160, blue: 221, colorPreference: ColorBits.pink.rawValue),
         CustomColor(name: "Burgundy", red: 128, green: 0, blue: 32, colorPreference: ColorBits.red.rawValue),
         CustomColor(name: "Vintage Blue", red: 70, green: 130, blue: 180, colorPreference: ColorBits.blue.rawValue),
@@ -215,12 +210,10 @@ public struct ColorPalette {
         CustomColor(name: "Lime", red: 124, green: 252, blue: 0, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Lime Green", red: 50, green: 205, blue: 50, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Parrot Green", red: 0, green: 250, blue: 154, colorPreference: ColorBits.green.rawValue),
-        CustomColor(name: "Dark Green", red: 0, green: 100, blue: 0, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Light Green", red: 144, green: 238, blue: 144, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Pine", red: 0, green: 128, blue: 0, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Turquoise", red: 0, green: 255, blue: 127, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Dark Aquamarine", red: 0, green: 86, blue: 59, colorPreference: ColorBits.green.rawValue),
-        CustomColor(name: "Gray Green", red: 128, green: 138, blue: 135, colorPreference: ColorBits.green.rawValue),
         CustomColor(name: "Ebony Green", red: 30, green: 49, blue: 36, colorPreference: ColorBits.green.rawValue),
 
         // 新增卡其色系颜色
