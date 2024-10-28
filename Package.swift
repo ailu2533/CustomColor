@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "CustomColor",
+    defaultLocalization: "en",
     platforms: [.iOS(.v17)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -25,6 +26,9 @@ let package = Package(
                 .product(name: "ColorKit", package: "ColorKit"),
                 .product(name: "DominantColor", package: "DominantColor"),
 
+            ],
+            resources: [
+                .process("Resources")
             ]
         ),
 //        .testTarget(

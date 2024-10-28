@@ -10,7 +10,7 @@ import DominantColor
 import Foundation
 import UIKit
 
-public struct ColorMatcherResult: Sendable {
+public struct ColorMatcherResult {
     public let predictColor: CustomColor?
     public let status: Int
     // DominantColor解析出的颜色

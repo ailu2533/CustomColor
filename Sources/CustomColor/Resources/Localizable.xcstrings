@@ -1,0 +1,174 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Beige" : {
+      "en" : "Beige",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "米色"
+          }
+        }
+      },
+      "zh" : "米色"
+    },
+    "Black" : {
+      "en" : "Black",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黑色"
+          }
+        }
+      },
+      "zh" : "黑色"
+    },
+    "Blue" : {
+      "en" : "Blue",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蓝色"
+          }
+        }
+      },
+      "zh" : "蓝色"
+    },
+    "Brown" : {
+      "en" : "Brown",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "棕色"
+          }
+        }
+      },
+      "zh" : "棕色"
+    },
+    "Cyan" : {
+      "en" : "Cyan",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "青色"
+          }
+        }
+      },
+      "zh" : "青色"
+    },
+    "Gray" : {
+      "en" : "Gray",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "灰色"
+          }
+        }
+      },
+      "zh" : "灰色"
+    },
+    "Green" : {
+      "en" : "Green",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绿色"
+          }
+        }
+      },
+      "zh" : "绿色"
+    },
+    "Khaki" : {
+      "en" : "Khaki",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卡其色"
+          }
+        }
+      },
+      "zh" : "卡其色"
+    },
+    "Orange" : {
+      "en" : "Orange",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色"
+          }
+        }
+      },
+      "zh" : "橙色"
+    },
+    "Pink" : {
+      "en" : "Pink",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粉红色"
+          }
+        }
+      },
+      "zh" : "粉色"
+    },
+    "Purple" : {
+      "en" : "Purple",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紫色"
+          }
+        }
+      },
+      "zh" : "紫色"
+    },
+    "Red" : {
+      "en" : "Red",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "红色"
+          }
+        }
+      },
+      "zh" : "红色"
+    },
+    "White" : {
+      "en" : "White",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "白色"
+          }
+        }
+      },
+      "zh" : "白色"
+    },
+    "Yellow" : {
+      "en" : "Yellow",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黄色"
+          }
+        }
+      },
+      "zh" : "黄色"
+    }
+  },
+  "version" : "1.0"
+}
