@@ -5,6 +5,8 @@
 //  Created by Lu Ai on 2024/10/28.
 //
 
+import Foundation
+
 public extension CustomColor {
     static let baseColors: [CustomColor] = [
         // 基本色系
@@ -29,4 +31,8 @@ public extension CustomColor {
         CustomColor(name: "Khaki", red: 240, green: 230, blue: 140, colorPreference: ColorBits.khaki.rawValue),
         CustomColor(name: "Brown", red: 165, green: 42, blue: 42, colorPreference: ColorBits.brown.rawValue),
     ]
+
+    static func localizedString(_ key: String) -> String {
+        return Bundle.module.localizedString(forKey: key, value: key, table: nil)
+    }
 }
