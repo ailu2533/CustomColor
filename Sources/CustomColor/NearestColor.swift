@@ -10,25 +10,29 @@ import DominantColor
 import Foundation
 import UIKit
 
+// MARK: - ColorMatcherResult
+
 public struct ColorMatcherResult {
-    public let predictColor: CustomColor?
-    public let status: Int
-    // DominantColor解析出的颜色
-    public let extractedDominatorColors: [UIColor]
+    // MARK: Lifecycle
 
     init(predictColor: CustomColor? = nil, status: Int = 0, extractedDominatorColors: [UIColor] = []) {
         self.predictColor = predictColor
         self.status = status
         self.extractedDominatorColors = extractedDominatorColors
     }
+
+    // MARK: Public
+
+    public let predictColor: CustomColor?
+    public let status: Int
+    // DominantColor解析出的颜色
+    public let extractedDominatorColors: [UIColor]
 }
 
+// MARK: - ColorMatcher
+
 public struct ColorMatcher: Sendable {
-    private static func findClosestColor(in palette: [CustomColor], to targetColor: UIColor) -> CustomColor? {
-        palette.min { color1, color2 in
-            color1.uiColor.difference(from: targetColor) < color2.uiColor.difference(from: targetColor)
-        }
-    }
+    // MARK: Public
 
     public static func extractDominantColor(from image: UIImage) async -> ColorMatcherResult {
         guard let cgImage = image.cgImage else {
@@ -55,5 +59,13 @@ public struct ColorMatcher: Sendable {
 
             return ColorMatcherResult(predictColor: mostFrequentColor, status: status, extractedDominatorColors: dominantUIColors)
         }.value
+    }
+
+    // MARK: Private
+
+    private static func findClosestColor(in palette: [CustomColor], to targetColor: UIColor) -> CustomColor? {
+        palette.min { color1, color2 in
+            color1.uiColor.difference(from: targetColor) < color2.uiColor.difference(from: targetColor)
+        }
     }
 }

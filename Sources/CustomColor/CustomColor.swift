@@ -2,10 +2,12 @@ import ColorKit
 import SwiftUI
 import UIKit
 
+// MARK: - CustomColor
+
 public struct CustomColor: Identifiable {
     // MARK: Lifecycle
 
-    init(name: LocalizedStringKey? = nil, red: Int16, green: Int16, blue: Int16, colorPreference: Int32) {
+    init(name: String? = nil, red: Int16, green: Int16, blue: Int16, colorPreference: Int32) {
         self.name = name
         self.red = red
         self.green = green
@@ -15,7 +17,7 @@ public struct CustomColor: Identifiable {
 
     // MARK: Public
 
-    public let name: LocalizedStringKey?
+    public let name: String?
     public let red: Int16
     public let green: Int16
     public let blue: Int16
@@ -41,6 +43,8 @@ public struct CustomColor: Identifiable {
         Color(uiColor: uiColor)
     }
 }
+
+// MARK: Hashable
 
 extension CustomColor: Hashable {
     public static func == (lhs: Self, rhs: Self) -> Bool {
