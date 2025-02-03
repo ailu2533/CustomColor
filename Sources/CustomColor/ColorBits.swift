@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUICore
 
 public enum ColorBits: Int64 {
     case black = 1 // 2^0
@@ -28,4 +29,39 @@ public enum ColorBits: Int64 {
     // MARK: Public
 
     public typealias RawValue = Int64
+
+    // MARK: Internal
+
+    var color: Color {
+        switch self {
+        case .black:
+            Color(.black)
+        case .white:
+            Color(.white)
+        case .gray:
+            Color(.gray)
+        case .red:
+            Color(.red)
+        case .orange:
+            Color(.orange)
+        case .yellow:
+            Color(.yellow)
+        case .pink:
+            Color(.pink)
+        case .blue:
+            Color(.blue)
+        case .cyan:
+            Color(.cyan)
+        case .green:
+            Color(.green)
+        case .purple:
+            Color(.purple)
+        case .beige:
+            Color(.beige)
+        case .khaki:
+            Color(.khaki)
+        case .brown:
+            Color(.brown)
+        }
+    }
 }
