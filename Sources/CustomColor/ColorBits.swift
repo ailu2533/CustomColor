@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum ColorBits: Int32 {
+public enum ColorBits: Int64 {
     case black = 1 // 2^0
     case white = 2 // 2^1
     case gray = 4 // 2^2
@@ -27,5 +27,5 @@ public enum ColorBits: Int32 {
 
     // MARK: Public
 
-    public typealias RawValue = Int32
+    public typealias RawValue = Int64
 }

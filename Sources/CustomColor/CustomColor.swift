@@ -7,7 +7,7 @@ import UIKit
 public struct CustomColor: Identifiable {
     // MARK: Lifecycle
 
-    init(name: String? = nil, red: Int16, green: Int16, blue: Int16, colorPreference: Int32) {
+    init(name: String? = nil, red: Int16, green: Int16, blue: Int16, colorPreference: Int64) {
         self.name = name
         self.red = red
         self.green = green
@@ -22,7 +22,7 @@ public struct CustomColor: Identifiable {
     public let green: Int16
     public let blue: Int16
 
-    public let colorPreference: Int32
+    public let colorPreference: Int64
 
     public var hex: String {
         let r = String(format: "%02X", red)
