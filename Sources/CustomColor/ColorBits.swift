@@ -8,7 +8,9 @@
 import Foundation
 import SwiftUICore
 
-public enum ColorBits: Int64 {
+// MARK: - ColorBits
+
+public enum ColorBits: Int64, CaseIterable {
     case black = 1 // 2^0
     case white = 2 // 2^1
     case gray = 4 // 2^2
@@ -30,9 +32,7 @@ public enum ColorBits: Int64 {
 
     public typealias RawValue = Int64
 
-    // MARK: Internal
-
-    var color: Color {
+    public var color: Color {
         switch self {
         case .black:
             Color(.black)
@@ -63,5 +63,19 @@ public enum ColorBits: Int64 {
         case .brown:
             Color(.brown)
         }
+    }
+}
+
+extension ColorBits {
+    public static func decompose(_ value: Int64) -> [ColorBits] {
+        var result: [ColorBits] = []
+        // 遍历所有ColorBits的case
+        for color in allCases {
+            // 使用位与运算检查该位是否为1
+            if value & color.rawValue != 0 {
+                result.append(color)
+            }
+        }
+        return result
     }
 }
