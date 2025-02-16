@@ -194,7 +194,12 @@ public struct ColorPalette {
         CustomColor(red: 132, green: 164, blue: 225, colorPreference: ColorBits.blue.rawValue),
     ]
 
-    public static func nearestTwoColors(color: UIColor) -> (CustomColor?, CustomColor?, UIColor.ColorDifferenceResult, UIColor.ColorDifferenceResult) {
+    public static func nearestTwoColors(color: UIColor) -> (
+        CustomColor?,
+        CustomColor?,
+        UIColor.ColorDifferenceResult,
+        UIColor.ColorDifferenceResult
+    ) {
         var firstNearest: CustomColor?
         var secondNearest: CustomColor?
         var minDist1 = UIColor.ColorDifferenceResult.near(10)

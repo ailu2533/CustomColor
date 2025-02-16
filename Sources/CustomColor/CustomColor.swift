@@ -4,7 +4,7 @@ import UIKit
 
 // MARK: - CustomColor
 
-public struct CustomColor: Identifiable {
+public struct CustomColor: Identifiable, Sendable {
     // MARK: Lifecycle
 
     init(name: String? = nil, red: Int16, green: Int16, blue: Int16, colorPreference: Int64) {
