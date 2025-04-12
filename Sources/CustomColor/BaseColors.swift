@@ -25,8 +25,8 @@ public extension CustomColor {
         // 冷色系
         CustomColor(name: "Blue", red: 0, green: 0, blue: 255, colorPreference: ColorBits.blue.rawValue),
         CustomColor(name: "Teal", red: 0, green: 128, blue: 128, colorPreference: ColorBits.teal.rawValue),
-        CustomColor(name: "Cyan", red: 0, green: 255, blue: 255, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(name: "Green", red: 0, green: 255, blue: 0, colorPreference: ColorBits.green.rawValue),
+        CustomColor(name: "Cyan", red: 0, green: 255, blue: 255, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(name: "Purple", red: 128, green: 0, blue: 128, colorPreference: ColorBits.purple.rawValue),
 
         // 中性色系
