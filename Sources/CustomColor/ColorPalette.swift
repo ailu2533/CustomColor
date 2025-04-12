@@ -192,6 +192,55 @@ public struct ColorPalette {
         CustomColor(red: 67, green: 94, blue: 156, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 28, green: 48, blue: 92, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 132, green: 164, blue: 225, colorPreference: ColorBits.blue.rawValue),
+
+        // 新增驼色系颜色
+        CustomColor(red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
+        CustomColor(red: 255, green: 215, blue: 0, colorPreference: ColorBits.gold.rawValue),
+        CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
+        CustomColor(red: 255, green: 215, blue: 0, colorPreference: ColorBits.gold.rawValue),
+        CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
+        CustomColor(red: 255, green: 215, blue: 0, colorPreference: ColorBits.gold.rawValue),
+        CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
+        CustomColor(red: 255, green: 215, blue: 0, colorPreference: ColorBits.gold.rawValue),
+        CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
+
+        // 洋红色
+        CustomColor(red: 255, green: 0, blue: 255, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 229, green: 0, blue: 229, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 204, green: 0, blue: 204, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 255, green: 0, blue: 191, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 255, green: 25, blue: 255, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 255, green: 50, blue: 255, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 255, green: 76, blue: 255, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 179, green: 0, blue: 134, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 223, green: 0, blue: 134, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 255, green: 0, blue: 204, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(red: 252, green: 15, blue: 192, colorPreference: ColorBits.magenta.rawValue),
+
+        // 鸭绿色
+        CustomColor(red: 0, green: 128, blue: 128, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 127, green: 255, blue: 212, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 1, green: 249, blue: 198, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 0, green: 76, blue: 76, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 0, green: 102, blue: 102, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 0, green: 115, blue: 115, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 0, green: 145, blue: 147, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 25, green: 140, blue: 140, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 50, green: 153, blue: 153, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(red: 76, green: 166, blue: 166, colorPreference: ColorBits.teal.rawValue),
+
+        // 金色
+        CustomColor(red: 255, green: 215, blue: 0, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 255, green: 219, blue: 25, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 229, green: 193, blue: 0, colorPreference: ColorBits.silver.rawValue),
+
+        // 银色
+        CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 172, green: 172, blue: 172, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 198, green: 198, blue: 198, colorPreference: ColorBits.silver.rawValue),
     ]
 
     public static func nearestTwoColors(color: UIColor) -> (
