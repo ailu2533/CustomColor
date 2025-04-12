@@ -30,6 +30,12 @@ public extension CustomColor {
         CustomColor(name: "Beige", red: 245, green: 245, blue: 220, colorPreference: ColorBits.beige.rawValue),
         CustomColor(name: "Khaki", red: 240, green: 230, blue: 140, colorPreference: ColorBits.khaki.rawValue),
         CustomColor(name: "Brown", red: 165, green: 42, blue: 42, colorPreference: ColorBits.brown.rawValue),
+
+        CustomColor(name: "Camel", red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
+        CustomColor(name: "Magenta", red: 255, green: 0, blue: 255, colorPreference: ColorBits.magenta.rawValue),
+        CustomColor(name: "Teal", red: 0, green: 128, blue: 128, colorPreference: ColorBits.teal.rawValue),
+        CustomColor(name: "Gold", red: 255, green: 215, blue: 0, colorPreference: ColorBits.gold.rawValue),
+        CustomColor(name: "Silver", red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
     ]
 
     static func localizedString(_ key: String) -> String {

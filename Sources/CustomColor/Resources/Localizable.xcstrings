@@ -2,7 +2,6 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Beige" : {
-      "en" : "Beige",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -24,7 +23,7 @@
         },
         "zh-Hant" : {
           "stringUnit" : {
-            "state" : "translated", 
+            "state" : "translated",
             "value" : "米色"
           }
         },
@@ -34,11 +33,9 @@
             "value" : "米色"
           }
         }
-      },
-      "zh" : "米色"
+      }
     },
     "Black" : {
-      "en" : "Black",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -70,11 +67,9 @@
             "value" : "黑色"
           }
         }
-      },
-      "zh" : "黑色"
+      }
     },
     "Blue" : {
-      "en" : "Blue", 
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -106,11 +101,9 @@
             "value" : "藍色"
           }
         }
-      },
-      "zh" : "蓝色"
+      }
     },
     "Brown" : {
-      "en" : "Brown",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -142,11 +135,44 @@
             "value" : "啡色"
           }
         }
-      },
-      "zh" : "棕色"
+      }
+    },
+    "Camel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャメル"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "驼色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駝色"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駝色"
+          }
+        }
+      }
     },
     "Cyan" : {
-      "en" : "Cyan",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -178,11 +204,44 @@
             "value" : "青色"
           }
         }
-      },
-      "zh" : "青色"
+      }
+    },
+    "Gold" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gold"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金色"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金色"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金色"
+          }
+        }
+      }
     },
     "Gray" : {
-      "en" : "Gray",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -214,11 +273,9 @@
             "value" : "灰色"
           }
         }
-      },
-      "zh" : "灰色"
+      }
     },
     "Green" : {
-      "en" : "Green",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -250,11 +307,9 @@
             "value" : "綠色"
           }
         }
-      },
-      "zh" : "绿色"
+      }
     },
     "Khaki" : {
-      "en" : "Khaki",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -286,11 +341,44 @@
             "value" : "卡其色"
           }
         }
-      },
-      "zh" : "卡其色"
+      }
+    },
+    "Magenta" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magenta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マゼンタ"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "洋红色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "洋紅色"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "洋紅色"
+          }
+        }
+      }
     },
     "Orange" : {
-      "en" : "Orange",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -322,11 +410,9 @@
             "value" : "橙色"
           }
         }
-      },
-      "zh" : "橙色"
+      }
     },
     "Pink" : {
-      "en" : "Pink",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -358,11 +444,9 @@
             "value" : "粉紅色"
           }
         }
-      },
-      "zh" : "粉色"
+      }
     },
     "Purple" : {
-      "en" : "Purple",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -394,11 +478,9 @@
             "value" : "紫色"
           }
         }
-      },
-      "zh" : "紫色"
+      }
     },
     "Red" : {
-      "en" : "Red",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -430,11 +512,79 @@
             "value" : "紅色"
           }
         }
-      },
-      "zh" : "红色"
+      }
+    },
+    "Silver" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silver"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "銀色"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "银色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "銀色"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "銀色"
+          }
+        }
+      }
+    },
+    "Teal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "青緑"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鸭绿色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鴨綠色"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鴨綠色"
+          }
+        }
+      }
     },
     "White" : {
-      "en" : "White",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -466,11 +616,9 @@
             "value" : "白色"
           }
         }
-      },
-      "zh" : "白色"
+      }
     },
     "Yellow" : {
-      "en" : "Yellow",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -502,8 +650,7 @@
             "value" : "黃色"
           }
         }
-      },
-      "zh" : "黄色"
+      }
     }
   },
   "version" : "1.0"
