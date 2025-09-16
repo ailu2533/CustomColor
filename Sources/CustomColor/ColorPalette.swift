@@ -240,7 +240,7 @@ public struct ColorPalette {
         // 银色
         CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
         CustomColor(red: 172, green: 172, blue: 172, colorPreference: ColorBits.silver.rawValue),
-        CustomColor(red: 198, green: 198, blue: 198, colorPreference: ColorBits.silver.rawValue),
+        CustomColor(red: 198, green: 198, blue: 198, colorPreference: ColorBits.silver.rawValue)
     ]
 
     public static func nearestTwoColors(color: UIColor) -> (

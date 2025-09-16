@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftUICore
+import SwiftUI
 
 // MARK: - BaseColors
 
@@ -121,4 +121,3 @@ extension ColorBits {
         return result
     }
 }
-

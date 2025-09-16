@@ -11,11 +11,11 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "CustomColor",
-            targets: ["CustomColor"]),
+            targets: ["CustomColor"])
     ],
     dependencies: [
         .package(url: "https://github.com/Boris-Em/ColorKit.git", exact: "1.0.0"),
-        .package(url: "https://github.com/indragiek/DominantColor.git", .upToNextMajor(from: "0.2.2")),
+        .package(url: "https://github.com/indragiek/DominantColor.git", .upToNextMajor(from: "0.2.2"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -24,13 +24,13 @@ let package = Package(
             name: "CustomColor",
             dependencies: [
                 .product(name: "ColorKit", package: "ColorKit"),
-                .product(name: "DominantColor", package: "DominantColor"),
+                .product(name: "DominantColor", package: "DominantColor")
 
             ],
             resources: [
                 .process("Resources")
             ]
-        ),
+        )
 //        .testTarget(
 //            name: "CustomColorTests",
 //            dependencies: ["CustomColor"]
