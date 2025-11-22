@@ -93,16 +93,12 @@ public struct ColorPalette {
         CustomColor(red: 44, green: 49, blue: 68, colorPreference: ColorBits.blue.rawValue),
         // 新增常用的衣服蓝色
         CustomColor(red: 67, green: 110, blue: 238, colorPreference: ColorBits.blue.rawValue),
-        CustomColor(red: 135, green: 206, blue: 235, colorPreference: ColorBits.blue.rawValue),
-        CustomColor(red: 75, green: 0, blue: 130, colorPreference: ColorBits.purple.rawValue),
         CustomColor(red: 0, green: 127, blue: 255, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 0, green: 49, blue: 83, colorPreference: ColorBits.blue.rawValue),
-        CustomColor(red: 135, green: 206, blue: 250, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 0, green: 0, blue: 139, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 174, green: 198, blue: 207, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 104, green: 131, blue: 139, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 188, green: 212, blue: 230, colorPreference: ColorBits.blue.rawValue),
-        CustomColor(red: 25, green: 25, blue: 112, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 183, green: 181, blue: 150, colorPreference: ColorBits.beige.rawValue),
         CustomColor(red: 72, green: 108, blue: 87, colorPreference: ColorBits.green.rawValue),
 
@@ -240,7 +236,46 @@ public struct ColorPalette {
         // 银色
         CustomColor(red: 192, green: 192, blue: 192, colorPreference: ColorBits.silver.rawValue),
         CustomColor(red: 172, green: 172, blue: 172, colorPreference: ColorBits.silver.rawValue),
-        CustomColor(red: 198, green: 198, blue: 198, colorPreference: ColorBits.silver.rawValue)
+        CustomColor(red: 198, green: 198, blue: 198, colorPreference: ColorBits.silver.rawValue),
+
+        // 天空蓝系列
+        CustomColor(red: 135, green: 206, blue: 235, colorPreference: ColorBits.skyBlue.rawValue), // 标准天空蓝
+        CustomColor(red: 176, green: 224, blue: 230, colorPreference: ColorBits.skyBlue.rawValue), // 粉蓝色
+        CustomColor(red: 137, green: 207, blue: 240, colorPreference: ColorBits.skyBlue.rawValue), // 浅天空蓝
+        CustomColor(red: 173, green: 216, blue: 230, colorPreference: ColorBits.skyBlue.rawValue), // 淡蓝色
+        CustomColor(red: 135, green: 206, blue: 250, colorPreference: ColorBits.skyBlue.rawValue), // 亮天空蓝
+        CustomColor(red: 176, green: 196, blue: 222, colorPreference: ColorBits.skyBlue.rawValue), // 淡钢蓝
+        CustomColor(red: 240, green: 248, blue: 255, colorPreference: ColorBits.skyBlue.rawValue), // 爱丽丝蓝
+        CustomColor(red: 175, green: 238, blue: 238, colorPreference: ColorBits.skyBlue.rawValue), // 淡青色
+        CustomColor(red: 95, green: 158, blue: 160, colorPreference: ColorBits.skyBlue.rawValue), // 军服蓝
+        CustomColor(red: 130, green: 199, blue: 229, colorPreference: ColorBits.skyBlue.rawValue), // #82c7e5
+        CustomColor(red: 142, green: 204, blue: 231, colorPreference: ColorBits.skyBlue.rawValue), // #8ecce7
+        CustomColor(red: 155, green: 210, blue: 234, colorPreference: ColorBits.skyBlue.rawValue), // #9bd2ea
+        CustomColor(red: 167, green: 215, blue: 236, colorPreference: ColorBits.skyBlue.rawValue), // #a7d7ec
+        CustomColor(red: 180, green: 221, blue: 239, colorPreference: ColorBits.skyBlue.rawValue), // #b4ddef
+        CustomColor(red: 192, green: 227, blue: 242, colorPreference: ColorBits.skyBlue.rawValue), // #c0e3f2
+        CustomColor(red: 205, green: 232, blue: 244, colorPreference: ColorBits.skyBlue.rawValue), // #cde8f4
+        CustomColor(red: 217, green: 238, blue: 247, colorPreference: ColorBits.skyBlue.rawValue), // #d9eef7
+        CustomColor(red: 230, green: 243, blue: 249, colorPreference: ColorBits.skyBlue.rawValue), // #e6f3f9
+
+        // 牛仔蓝系列
+        CustomColor(red: 67, green: 107, blue: 149, colorPreference: ColorBits.denimBlue.rawValue), // 标准牛仔蓝
+        CustomColor(red: 29, green: 53, blue: 87, colorPreference: ColorBits.denimBlue.rawValue), // 深牛仔蓝
+        CustomColor(red: 75, green: 0, blue: 130, colorPreference: ColorBits.denimBlue.rawValue), // 靛蓝色
+        CustomColor(red: 67, green: 94, blue: 156, colorPreference: ColorBits.denimBlue.rawValue), // 中牛仔蓝
+        CustomColor(red: 28, green: 48, blue: 92, colorPreference: ColorBits.denimBlue.rawValue), // 深靛蓝
+        CustomColor(red: 100, green: 149, blue: 237, colorPreference: ColorBits.denimBlue.rawValue), // 浅牛仔蓝
+        CustomColor(red: 70, green: 130, blue: 180, colorPreference: ColorBits.denimBlue.rawValue), // 钢蓝色
+        CustomColor(red: 65, green: 105, blue: 225, colorPreference: ColorBits.denimBlue.rawValue), // 皇家蓝
+        CustomColor(red: 25, green: 25, blue: 112, colorPreference: ColorBits.denimBlue.rawValue), // 午夜蓝
+        CustomColor(red: 0, green: 0, blue: 128, colorPreference: ColorBits.denimBlue.rawValue), // 海军蓝
+        CustomColor(red: 72, green: 61, blue: 139, colorPreference: ColorBits.denimBlue.rawValue), // 深板岩蓝
+        CustomColor(red: 106, green: 90, blue: 205, colorPreference: ColorBits.denimBlue.rawValue), // 板岩蓝
+        CustomColor(red: 60, green: 96, blue: 134, colorPreference: ColorBits.denimBlue.rawValue), // #3c6086
+        CustomColor(red: 53, green: 85, blue: 119, colorPreference: ColorBits.denimBlue.rawValue), // #355577
+        CustomColor(red: 46, green: 74, blue: 104, colorPreference: ColorBits.denimBlue.rawValue), // #2e4a68
+        CustomColor(red: 40, green: 64, blue: 89, colorPreference: ColorBits.denimBlue.rawValue), // #284059
+        CustomColor(red: 33, green: 53, blue: 74, colorPreference: ColorBits.denimBlue.rawValue), // #21354a
     ]
 
     public static func nearestTwoColors(color: UIColor) -> (

@@ -31,6 +31,8 @@ struct BaseColors: OptionSet {
     static let teal = BaseColors(rawValue: 1 << 16) // 鸭绿色
     static let gold = BaseColors(rawValue: 1 << 17)
     static let silver = BaseColors(rawValue: 1 << 18)
+    static let skyBlue = BaseColors(rawValue: 1 << 19) // 天空蓝
+    static let denimBlue = BaseColors(rawValue: 1 << 20) // 牛仔蓝
 
     let rawValue: Int64
 }
@@ -57,6 +59,8 @@ public enum ColorBits: Int64, CaseIterable {
     case teal = 65536
     case gold = 131072
     case silver = 262144
+    case skyBlue = 524288 // 天空蓝
+    case denimBlue = 1048576 // 牛仔蓝
 
     // 可以根据需要添加更多颜色
 
@@ -104,6 +108,10 @@ public enum ColorBits: Int64, CaseIterable {
             Color(.gold)
         case .silver:
             Color(.silver)
+        case .skyBlue:
+            Color(.skyBlue)
+        case .denimBlue:
+            Color(.denimBlue)
         }
     }
 }
