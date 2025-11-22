@@ -37,7 +37,6 @@ public struct ColorPalette {
         CustomColor(red: 245, green: 245, blue: 245, colorPreference: ColorBits.white.rawValue),
         CustomColor(red: 255, green: 255, blue: 240, colorPreference: ColorBits.white.rawValue),
 
-
         // 新增常见的衣服灰色
         CustomColor(red: 54, green: 69, blue: 79, colorPreference: ColorBits.gray.rawValue),
         CustomColor(red: 112, green: 128, blue: 144, colorPreference: ColorBits.gray.rawValue),
@@ -79,8 +78,9 @@ public struct ColorPalette {
         CustomColor(red: 20, green: 20, blue: 20, colorPreference: ColorBits.black.rawValue),
         CustomColor(red: 40, green: 40, blue: 40, colorPreference: ColorBits.black.rawValue),
         CustomColor(red: 15, green: 15, blue: 15, colorPreference: ColorBits.black.rawValue),
-        CustomColor(red: 44, green: 49, blue: 68, colorPreference: ColorBits.blue.rawValue),
+
         // 新增常用的衣服蓝色
+        CustomColor(red: 44, green: 49, blue: 68, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 67, green: 110, blue: 238, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 0, green: 127, blue: 255, colorPreference: ColorBits.blue.rawValue),
         CustomColor(red: 0, green: 49, blue: 83, colorPreference: ColorBits.blue.rawValue),
@@ -150,8 +150,6 @@ public struct ColorPalette {
         CustomColor(red: 0, green: 255, blue: 127, colorPreference: ColorBits.green.rawValue),
         CustomColor(red: 0, green: 86, blue: 59, colorPreference: ColorBits.green.rawValue),
         CustomColor(red: 30, green: 49, blue: 36, colorPreference: ColorBits.green.rawValue),
-        
-
 
         // 橄榄绿系列
         CustomColor(red: 128, green: 128, blue: 0, colorPreference: ColorBits.oliveGreen.rawValue), // 标准橄榄绿
@@ -164,6 +162,9 @@ public struct ColorPalette {
         CustomColor(red: 128, green: 128, blue: 105, colorPreference: ColorBits.oliveGreen.rawValue), // 灰橄榄色
         CustomColor(red: 143, green: 151, blue: 121, colorPreference: ColorBits.oliveGreen.rawValue), // 浅橄榄绿
         CustomColor(red: 75, green: 83, blue: 32, colorPreference: ColorBits.oliveGreen.rawValue),
+        CustomColor(red: 87, green: 57, blue: 111, colorPreference: ColorBits.oliveGreen.rawValue),
+        CustomColor(red: 37, green: 150, blue: 190, colorPreference: ColorBits.oliveGreen.rawValue),
+        CustomColor(red: 51, green: 56, blue: 44, colorPreference: ColorBits.oliveGreen.rawValue),
 
         // 新增卡其色系颜色
         CustomColor(red: 195, green: 176, blue: 145, colorPreference: ColorBits.khaki.rawValue),
@@ -183,7 +184,6 @@ public struct ColorPalette {
         CustomColor(red: 64, green: 224, blue: 208, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(red: 127, green: 255, blue: 212, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(red: 0, green: 191, blue: 255, colorPreference: ColorBits.cyan.rawValue),
-
 
         // 新增驼色系颜色
         CustomColor(red: 193, green: 154, blue: 107, colorPreference: ColorBits.camel.rawValue),
@@ -262,7 +262,6 @@ public struct ColorPalette {
         CustomColor(red: 40, green: 64, blue: 89, colorPreference: ColorBits.denimBlue.rawValue), // #284059
         CustomColor(red: 33, green: 53, blue: 74, colorPreference: ColorBits.denimBlue.rawValue), // #21354a
         CustomColor(red: 132, green: 164, blue: 225, colorPreference: ColorBits.denimBlue.rawValue),
-
     ]
 
     public static func nearestTwoColors(color: UIColor) -> (
