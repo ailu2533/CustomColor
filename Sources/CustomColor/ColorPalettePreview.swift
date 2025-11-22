@@ -29,8 +29,8 @@ struct ColorPalettePreview: View {
             }
             
             // Get color name from ColorBits enum
-            let colorName = "Unknow"
-            
+            let colorName = ColorBits(rawValue: preference)?.localizedName ?? "Unknown"
+
             return (preference, colorName, sortedColors)
         }
         .sorted { $0.colorPreference < $1.colorPreference }

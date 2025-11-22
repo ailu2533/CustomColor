@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "(%lld)" : {
+
+    },
     "Beige" : {
       "localizations" : {
         "en" : {
@@ -170,6 +173,9 @@
           }
         }
       }
+    },
+    "Color Palette" : {
+
     },
     "Cyan" : {
       "localizations" : {
@@ -341,40 +347,6 @@
         }
       }
     },
-    "OliveGreen" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Olive Green"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "オリーブグリーン"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "橄榄绿"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "橄欖綠"
-          }
-        },
-        "zh-HK" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "橄欖綠"
-          }
-        }
-      }
-    },
     "Khaki" : {
       "localizations" : {
         "en" : {
@@ -439,6 +411,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "洋紅色"
+          }
+        }
+      }
+    },
+    "OliveGreen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olive Green"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オリーブグリーン"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橄榄绿"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橄欖綠"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橄欖綠"
           }
         }
       }
@@ -575,6 +581,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "紅色"
+          }
+        }
+      }
+    },
+    "RGB(%d, %d, %d)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "RGB(%1$d, %2$d, %3$d)"
           }
         }
       }

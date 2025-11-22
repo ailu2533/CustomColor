@@ -119,6 +119,55 @@ public enum ColorBits: Int64, CaseIterable {
             Color(.oliveGreen)
         }
     }
+
+    public var localizedName: String {
+        switch self {
+        case .black:
+            String(localized: "Black")
+        case .white:
+            String(localized: "White")
+        case .gray:
+            String(localized: "Gray")
+        case .red:
+            String(localized: "Red")
+        case .orange:
+            String(localized: "Orange")
+        case .yellow:
+            String(localized: "Yellow")
+        case .pink:
+            String(localized: "Pink")
+        case .blue:
+            String(localized: "Blue")
+        case .cyan:
+            String(localized: "Cyan")
+        case .green:
+            String(localized: "Green")
+        case .purple:
+            String(localized: "Purple")
+        case .beige:
+            String(localized: "Beige")
+        case .khaki:
+            String(localized: "Khaki")
+        case .brown:
+            String(localized: "Brown")
+        case .teal:
+            String(localized: "Teal")
+        case .camel:
+            String(localized: "Camel")
+        case .magenta:
+            String(localized: "Magenta")
+        case .gold:
+            String(localized: "Gold")
+        case .silver:
+            String(localized: "Silver")
+        case .skyBlue:
+            String(localized: "SkyBlue")
+        case .denimBlue:
+            String(localized: "DenimBlue")
+        case .oliveGreen:
+            String(localized: "OliveGreen")
+        }
+    }
 }
 
 extension ColorBits {
