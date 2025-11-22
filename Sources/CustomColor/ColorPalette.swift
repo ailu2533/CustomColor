@@ -257,6 +257,8 @@ public struct ColorPalette {
         CustomColor(red: 205, green: 232, blue: 244, colorPreference: ColorBits.skyBlue.rawValue), // #cde8f4
         CustomColor(red: 217, green: 238, blue: 247, colorPreference: ColorBits.skyBlue.rawValue), // #d9eef7
         CustomColor(red: 230, green: 243, blue: 249, colorPreference: ColorBits.skyBlue.rawValue), // #e6f3f9
+        CustomColor(red: 144, green: 213, blue: 255, colorPreference: ColorBits.skyBlue.rawValue), // #90d5ff
+        CustomColor(red: 87, green: 185, blue: 255, colorPreference: ColorBits.skyBlue.rawValue), // #57b9ff
 
         // 牛仔蓝系列
         CustomColor(red: 67, green: 107, blue: 149, colorPreference: ColorBits.denimBlue.rawValue), // 标准牛仔蓝
