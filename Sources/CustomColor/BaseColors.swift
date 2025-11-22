@@ -28,6 +28,7 @@ public extension CustomColor {
         CustomColor(name: String(localized: "DenimBlue"), red: 68, green: 109, blue: 146, colorPreference: ColorBits.denimBlue.rawValue),
         CustomColor(name: String(localized: "Teal"), red: 0, green: 128, blue: 128, colorPreference: ColorBits.teal.rawValue),
         CustomColor(name: String(localized: "Green"), red: 0, green: 255, blue: 0, colorPreference: ColorBits.green.rawValue),
+        CustomColor(name: String(localized: "OliveGreen"), red: 186, green: 184, blue: 108, colorPreference: ColorBits.oliveGreen.rawValue),
         CustomColor(name: String(localized: "Cyan"), red: 0, green: 255, blue: 255, colorPreference: ColorBits.cyan.rawValue),
         CustomColor(name: String(localized: "Purple"), red: 128, green: 0, blue: 128, colorPreference: ColorBits.purple.rawValue),
 
